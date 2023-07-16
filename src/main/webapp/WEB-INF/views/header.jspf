@@ -1,0 +1,12 @@
+<header>
+    <div>
+        <a href="profile">
+            <img class="logo" src="../takeMyBookLogo.png">
+        </a>
+       <h1 style="margin:0;">takeMyBook</h1>
+        <a href="logout">
+            <img src="../log-out.png" id="logout">
+        </a>
+    </div>
+
+</header>

@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Boogaloo);
+
+#loginBookContainer {
+    max-width: 400px;
+}
+
+.cls-22:hover, .cls-7:hover {
+    fill: rgb(255, 221, 158);
+}
+
+body,
+p {
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    color: #844115;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+button {
+    background: #844115;
+    font-family: 'Boogaloo', cursive;
+    font-size: 40px;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.loginButton {
+    margin: 10px 0 0 10px;
+}
+
+/* popup */
+.popUpForm {
+    display: none;
+    width: 350px;
+
+    font-family: 'Boogaloo', cursive;
+    font-size: 25px;
+    line-height: 18px;
+    background: #eee;
+    position: fixed;
+    left: 50%;
+    margin-left: -190px;
+    box-shadow: 0px 0px 5px hsl(24, 73%, 20%);
+    border-radius: 5px;
+    text-align: center;
+    z-index: 300;
+}
+
+.popUpForm>p {
+    padding-right: 15px;
+    float: left;
+    font-size: 100px;
+}
+
+input {
+    font-family: 'Boogaloo', cursive;
+    color: #844115;
+    font-size: 25px;
+    line-height: 18px;
+    width: 200px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px 0 0 10px;
+}
+
+.popUpForm>.loginText {
+    font-size: 35px;
+    line-height: 40px;
+    margin: 0 0 0 20px;
+}
+
+.popUpForm>.closeButton {
+    margin-right: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+.popUpForm>.login {
+    margin: 20px;
+}
+
+.popUpForm>.password {
+    margin: 20px;
+}
+
+.popUpForm>button {
+    font-size: 26px;
+    margin-top: 20px;
+}
